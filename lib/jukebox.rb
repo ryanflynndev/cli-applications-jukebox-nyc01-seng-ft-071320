@@ -25,5 +25,5 @@ def play(songs)
     elsif (count) + 1 == input
       puts "Playing #{songs[count]}"
     else 
-      puts ""
+      puts "Invalid input, please try again"
 end
