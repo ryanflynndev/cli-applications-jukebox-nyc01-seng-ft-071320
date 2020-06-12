@@ -28,8 +28,7 @@ def play(songs)
     end
     count += 1
   end
-  else 
-    puts "Invalid input, please try again"
+  puts "Invalid input, please try again"
 end
 
 songs = [
