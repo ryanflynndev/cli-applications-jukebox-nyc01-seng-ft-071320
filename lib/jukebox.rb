@@ -45,6 +45,10 @@ def run
       break
     elsif input == "help"
       help
+    elsif input == "list"
+      list
+    elsif input == "play"
+      play
     end
   end    
 end
