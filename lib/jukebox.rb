@@ -35,7 +35,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run(songs) 
+def run(songs)
   puts "Please enter a command:"
   input = gets.strip
   count = -1
@@ -48,7 +48,7 @@ def run(songs)
     elsif input == "list"
       list(songs)
     elsif input == "play"
-      play
+      play(songs)
     end
   end    
 end
