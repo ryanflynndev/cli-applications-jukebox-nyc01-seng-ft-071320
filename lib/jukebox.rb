@@ -38,9 +38,13 @@ end
 def run 
   puts "Please enter a command:"
   input = gets.strip
-  until input == "exit"
-    if input 
-      
+  count = -1
+  while count < 0
+    if input == "exit"
+      exit_jukebox
+      break
+    elsif input == "help"
+      help
     end
   end    
 end
