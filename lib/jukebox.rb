@@ -21,9 +21,9 @@ def play(songs)
   count = 0 
   while count < songs.length
     if songs[count] == input 
-      puts "Playing #{songs[count]}"
+      return puts "Playing #{songs[count]}"
     elsif (count + 1).to_s == input
-      puts "Playing #{songs[count]}"
+     return puts "Playing #{songs[count]}"
       
     end
     count += 1
