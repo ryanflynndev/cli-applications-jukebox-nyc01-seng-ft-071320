@@ -43,4 +43,3 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-play(songs)
