@@ -22,7 +22,7 @@ def play(songs)
   while count < songs.length
     if songs[count] == input 
       puts "Playing #{songs[count]}"
-    elsif (count + 1) == input
+    elsif (count + 1).to_s == input
       puts "Playing #{songs[count]}"
     else 
       puts "Invalid input, please try again"
